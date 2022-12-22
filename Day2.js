@@ -40,3 +40,28 @@
 // console.log(ob2.name);
 // console.log(ob3.lastname);
 
+//-----------------------------------------------------------------------------------------------
+
+// CLASSES 
+
+class vehicle {
+    constructor(name, brand, color) {
+        this.name = name;
+        this.brand = brand;
+        this.color = color;
+    }
+
+    getName(){
+        return (`The name of the vehicle is ${this.name}`)
+    }
+
+    getBrand(){
+        return (`The name of the vehicle is ${this.brand}`)
+    }
+}
+
+let vehicle1 = new vehicle("Supra", "Toyota", "Orange");
+
+console.log(vehicle1.getName());
+
+console.log(vehicle1.name);
