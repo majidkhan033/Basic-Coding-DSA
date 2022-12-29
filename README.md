@@ -15,7 +15,7 @@ Day - 1
 Day - 2
 Objects /
 Method overloading /
-CLASSES /
+CLASSES 
 1. Creating Class in JavaScript
 
 ---------------------------------------------------------------------------------------------------------------------------
